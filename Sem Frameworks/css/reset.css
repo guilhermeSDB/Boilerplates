@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: var(--white);
+  font-size: 1.6rem;
+  color: var(--black);
+  overflow-x: hidden;
+}
+
+body * {
+  /* Para debuggar */
+  /* border: .1rem solid red; */
+  font-family: var(--font-family-default);
+}
